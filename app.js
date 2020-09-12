@@ -55,7 +55,7 @@ function compare(){
 
 function randomCard(){
     num = Math.floor(Math.random()*13) + 1;
-    return "img/" + num + ".png";
+    return "image/" + num + ".png";
 }
 
 function Player(sum, score , classBoard, idSum){
